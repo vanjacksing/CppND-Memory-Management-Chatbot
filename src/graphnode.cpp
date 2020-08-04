@@ -10,8 +10,9 @@ GraphNode::~GraphNode()
 {
     //// STUDENT CODE
     ////
+    // Chatbot instance should be deleted where it is created - in chatlogic
 
-    delete _chatBot; 
+    //delete _chatBot; 
 
     ////
     //// EOF STUDENT CODE
